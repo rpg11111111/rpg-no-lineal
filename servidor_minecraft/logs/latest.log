@@ -7901,3 +7901,6 @@ ModdedBiomeSource (404bf807)
 [02Jan2025 19:40:04.065] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player cdc8b0ca-1448-37e2-bf7a-bb7aa2983978
 [02Jan2025 19:40:05.068] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player cdc8b0ca-1448-37e2-bf7a-bb7aa2983978
 [02Jan2025 19:40:05.068] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player SEINARU (cdc8b0ca-1448-37e2-bf7a-bb7aa2983978) successfully connected to voice chat
+[02Jan2025 19:59:41.024] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: SEINARU lost connection: Disconnected
+[02Jan2025 19:59:41.025] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SEINARU left the game
+[02Jan2025 19:59:41.026] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client SEINARU
