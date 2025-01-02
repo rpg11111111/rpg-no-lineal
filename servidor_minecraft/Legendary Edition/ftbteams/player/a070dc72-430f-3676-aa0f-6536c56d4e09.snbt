@@ -1,0 +1,17 @@
+{
+	id: "a070dc72-430f-3676-aa0f-6536c56d4e09"
+	type: "player"
+	player_name: "Barkiel_05"
+	ranks: {
+		a070dc72-430f-3676-aa0f-6536c56d4e09: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "Barkiel_05"
+		"ftbteams:description": ""
+		"ftbteams:color": "#59D1FF"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}
