@@ -7864,3 +7864,40 @@ ModdedBiomeSource (404bf807)
 [02Jan2025 19:22:27.236] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player SEINARU (cdc8b0ca-1448-37e2-bf7a-bb7aa2983978) successfully connected to voice chat
 [02Jan2025 19:31:11.772] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Angelo'/16, l='ServerLevel[Legendary Edition]', x=21.59, y=70.00, z=-11.10] died, message: 'Angelo hit the ground too hard'
 [02Jan2025 19:31:11.773] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Villager['Angelo'/16, l='ServerLevel[Legendary Edition]', x=21.59, y=70.00, z=-11.10] died: Angelo fell from a high place
+[02Jan2025 19:37:17.382] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[02Jan2025 19:37:17.387] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: a<--[HERE]
+[02Jan2025 19:37:21.435] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player cdc8b0ca-1448-37e2-bf7a-bb7aa2983978 timed out
+[02Jan2025 19:37:21.435] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Reconnecting player SEINARU
+[02Jan2025 19:37:21.436] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Sent secret to SEINARU
+[02Jan2025 19:37:36.678] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: SEINARU lost connection: Timed out
+[02Jan2025 19:37:36.679] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SEINARU left the game
+[02Jan2025 19:37:36.684] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client SEINARU
+[02Jan2025 19:39:14.919] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@43912c09[id=<null>,name=SEINARU,properties={},legacy=false] (/127.109.98.65:47861) lost connection: Disconnected
+[02Jan2025 19:39:53.040] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: SEINARU[/127.109.98.65:37875] logged in with entity id 3185 at (236.30000001192093, 71.0, -209.03911393841338)
+[02Jan2025 19:39:53.058] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
+[02Jan2025 19:39:53.185] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SEINARU joined the game
+[02Jan2025 19:39:53.273] [Server thread/INFO] [fallingtrees | Config/]: Sending common config 'fallingtrees:fallingtrees_common' to SEINARU
+[02Jan2025 19:39:53.870] [Netty Epoll Server IO #6/INFO] [fallingtrees | Config/]: Received client config 'fallingtrees:fallingtrees_client' from SEINARU
+[02Jan2025 19:39:53.881] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of SEINARU (18)
+[02Jan2025 19:39:53.882] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to SEINARU
+[02Jan2025 19:39:53.884] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Received Hello from Client. (server=3.0.14, client=3.0.14)
+[02Jan2025 19:39:53.885] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Sending Hello to Client. (server=3.0.14)
+[02Jan2025 19:39:53.885] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Listing Mod betternether v9.0.10 (size: 21.9 MiB, download=true)
+[02Jan2025 19:39:53.886] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Listing Mod bclib v3.0.14 (size: 2.2 MiB, download=true)
+[02Jan2025 19:39:53.886] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betternether.main
+[02Jan2025 19:39:53.887] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betternether.generator
+[02Jan2025 19:39:53.887] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betternether.blocks
+[02Jan2025 19:39:53.887] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betternether.items
+[02Jan2025 19:39:53.887] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betternether.biomes
+[02Jan2025 19:39:53.887] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betternether.mobs
+[02Jan2025 19:39:53.888] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betterend.entities
+[02Jan2025 19:39:53.888] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betterend.blocks
+[02Jan2025 19:39:53.888] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betterend.items
+[02Jan2025 19:39:53.888] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betterend.enchantments
+[02Jan2025 19:39:53.888] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_bclib.generator
+[02Jan2025 19:39:53.889] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_bclib.main
+[02Jan2025 19:39:53.889] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_bclib.biomes
+[02Jan2025 19:39:53.889] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Folder /workspaces/rpg-no-lineal/servidor_minecraft/bclib-sync (allowDelete=true)
+[02Jan2025 19:40:04.065] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player cdc8b0ca-1448-37e2-bf7a-bb7aa2983978
+[02Jan2025 19:40:05.068] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player cdc8b0ca-1448-37e2-bf7a-bb7aa2983978
+[02Jan2025 19:40:05.068] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player SEINARU (cdc8b0ca-1448-37e2-bf7a-bb7aa2983978) successfully connected to voice chat
