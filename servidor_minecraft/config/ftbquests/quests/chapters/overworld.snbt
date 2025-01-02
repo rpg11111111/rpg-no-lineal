@@ -1,0 +1,21 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "overworld"
+	group: "5F70218941C1FBB1"
+	icon: "minecraft:grass_block"
+	id: "7D14A9A36DB25C94"
+	images: [{
+		height: 8.0d
+		image: "ftbquests:textures/custom/wip.png"
+		rotation: 0.0d
+		width: 8.0d
+		x: -4.5d
+		y: -6.0d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Overworld Quests"
+}

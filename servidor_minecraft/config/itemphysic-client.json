@@ -1,0 +1,28 @@
+{
+  "rendering": {
+    "oldRotation": true,
+    "vanillaRendering": true,
+    "rotateSpeed": 1.0,
+    "showPickupTooltip": false,
+    "showPickupTooltipExtended": false,
+    "showPickupTooltipKeybind": false,
+    "disableThrowHUD": true,
+    "vanillaRendered": {
+      "entries": [],
+      "isWhitelist": true
+    },
+    "tooltipOffsetX": 0,
+    "tooltipOffsetY": 0,
+    "blockRequireOffset": {
+      "blocks": [
+        "minecraft:snow",
+        "minecraft:soul_sand"
+      ],
+      "tags": []
+    },
+    "blockBelowRequireOffset": {
+      "blocks": [],
+      "tags": []
+    }
+  }
+}

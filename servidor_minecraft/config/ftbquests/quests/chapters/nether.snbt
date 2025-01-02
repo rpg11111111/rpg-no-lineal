@@ -1,0 +1,20 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "nether"
+	group: "5F70218941C1FBB1"
+	icon: "betternether:netherrack_moss"
+	id: "0BAEF679F4271A51"
+	images: [{
+		height: 8.0d
+		image: "ftbquests:textures/custom/wip.png"
+		rotation: 0.0d
+		width: 8.0d
+		x: -4.5d
+		y: -5.0d
+	}]
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: "Nether Quests"
+}

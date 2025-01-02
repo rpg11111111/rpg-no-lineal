@@ -1,0 +1,20 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "loot"
+	group: "49DA790BB69BB4EE"
+	icon: "aquamirae:treasure_pouch"
+	id: "47790ABC7466E035"
+	images: [{
+		height: 8.0d
+		image: "ftbquests:textures/custom/wip.png"
+		rotation: 0.0d
+		width: 8.0d
+		x: 0.0d
+		y: 0.0d
+	}]
+	order_index: 6
+	quest_links: [ ]
+	quests: [ ]
+	title: "Loot"
+}

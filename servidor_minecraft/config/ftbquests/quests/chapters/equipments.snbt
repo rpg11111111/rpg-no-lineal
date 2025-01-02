@@ -1,0 +1,32 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "equipments"
+	group: "49DA790BB69BB4EE"
+	icon: {
+		Count: 1
+		id: "irons_spellbooks:priest_chestplate"
+		tag: {
+			Damage: 0
+			ISB_Spells: {
+				data: [ ]
+				maxSpells: 1
+				mustEquip: 1b
+				spellWheel: 1b
+			}
+		}
+	}
+	id: "6696F286BB5A6303"
+	images: [{
+		height: 8.0d
+		image: "ftbquests:textures/custom/wip.png"
+		rotation: 0.0d
+		width: 8.0d
+		x: 0.0d
+		y: 0.0d
+	}]
+	order_index: 7
+	quest_links: [ ]
+	quests: [ ]
+	title: "Equipments"
+}

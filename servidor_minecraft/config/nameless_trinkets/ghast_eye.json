@@ -1,0 +1,9 @@
+{
+  "config": {
+    "extraHearts": 8.0,
+    "regenerationTime": 100,
+    "regenerationExtraTime": 60,
+    "regenerationLevel": 0,
+    "isEnable": true
+  }
+}

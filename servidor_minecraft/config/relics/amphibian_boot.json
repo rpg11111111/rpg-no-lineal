@@ -1,0 +1,78 @@
+{
+  "ability": {
+    "abilities": {
+      "swimming": {
+        "requiredPoints": 1,
+        "requiredLevel": 0,
+        "maxLevel": 10,
+        "stats": {
+          "duration": {
+            "minInitialValue": 15.0,
+            "maxInitialValue": 35.0,
+            "minThresholdValue": 4.9E-324,
+            "maxThresholdValue": 1.7976931348623157E308,
+            "upgradeOperation": "MULTIPLY_BASE",
+            "upgradeModifier": 0.1
+          },
+          "speed": {
+            "minInitialValue": 0.003,
+            "maxInitialValue": 0.008,
+            "minThresholdValue": 4.9E-324,
+            "maxThresholdValue": 1.7976931348623157E308,
+            "upgradeOperation": "MULTIPLY_BASE",
+            "upgradeModifier": 0.15
+          }
+        }
+      },
+      "slipping": {
+        "requiredPoints": 1,
+        "requiredLevel": 0,
+        "maxLevel": 10,
+        "stats": {
+          "duration": {
+            "minInitialValue": 15.0,
+            "maxInitialValue": 25.0,
+            "minThresholdValue": 4.9E-324,
+            "maxThresholdValue": 1.7976931348623157E308,
+            "upgradeOperation": "MULTIPLY_BASE",
+            "upgradeModifier": 0.1
+          },
+          "speed": {
+            "minInitialValue": 0.002,
+            "maxInitialValue": 0.008,
+            "minThresholdValue": 4.9E-324,
+            "maxThresholdValue": 1.7976931348623157E308,
+            "upgradeOperation": "MULTIPLY_BASE",
+            "upgradeModifier": 0.1
+          }
+        }
+      },
+      "gills": {
+        "requiredPoints": 1,
+        "requiredLevel": 0,
+        "maxLevel": 10,
+        "stats": {
+          "chance": {
+            "minInitialValue": 0.01,
+            "maxInitialValue": 0.05,
+            "minThresholdValue": 4.9E-324,
+            "maxThresholdValue": 1.7976931348623157E308,
+            "upgradeOperation": "MULTIPLY_BASE",
+            "upgradeModifier": 0.2
+          }
+        }
+      }
+    }
+  },
+  "leveling": {
+    "initialCost": 100,
+    "maxLevel": 30,
+    "step": 100
+  },
+  "loot": {
+    "entries": {
+      "[\\w]+:chests\\/[\\w_\\/]*(water|ocean|river|(?<!air)ship|aqua)[\\w_\\/]*": 0.0,
+      "minecraft:chests/buried_treasure": 0.0
+    }
+  }
+}

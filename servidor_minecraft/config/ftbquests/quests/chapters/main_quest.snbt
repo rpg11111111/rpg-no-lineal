@@ -1,0 +1,562 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "diamond"
+	filename: "main_quest"
+	group: "5F70218941C1FBB1"
+	icon: "paraglider:heart_container"
+	id: "318281BF7AE2DBED"
+	images: [
+		{
+			height: 1.0d
+			image: "simplyswords:item/dreadtide_anim_01"
+			rotation: 0.0d
+			width: 0.016666666666666666d
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			height: 21.0d
+			image: "ftbquests:textures/custom/book.png"
+			rotation: 0.0d
+			width: 42.0d
+			x: -2.1511904761904432d
+			y: -1.142857142857146d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"6944C77B92BBCE26"
+				"759868A865292860"
+				"4834DD4307CFE487"
+				"1B2DFBB4DA160B18"
+				"57700B34BDB38AA4"
+				"5793A43D05DC8A38"
+				"4320C056DDE4DF1A"
+				"46B2A029D07AF0C8"
+				"500142EA05C7D13D"
+				"58C25B0D6B26EA2D"
+				"5F39ACB4D458AB6C"
+				"427C62222D4FEC8D"
+				"7F8620A8ABC54844"
+				"4009384A4FC5BD85"
+				"65B9EFBB65DC99C5"
+				"191FD6EE49D1C3CE"
+			]
+			dependency_requirement: "one_completed"
+			description: ["Many have tried to achieve the &6Legendary Quest&r. Gather the &b16 Eyes&r of the End and open the &dEnd Portal&r located in the &aunderground Stronghold&r. Yet none ever reached the end of this &cterrible task&r..."]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "minecraft:end_portal_frame"
+			id: "5FF8D878A78AEC22"
+			min_required_dependencies: 16
+			rewards: [{
+				id: "5D7A2DC7C32BE023"
+				type: "xp"
+				xp: 10000
+			}]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "Find the eyes to open the end portal"
+			tasks: [{
+				advancement: "minecraft:story/root"
+				criterion: ""
+				icon: "paraglider:heart_container"
+				id: "0851D2DBC28EBA0C"
+				title: "Find the eyes of the end"
+				type: "advancement"
+			}]
+			title: "Gather the eyes"
+			x: 3.4988095238095482d
+			y: -1.1000000000000085d
+		}
+		{
+			description: [
+				"In the &6heart&r of the &6desert&r stands the &cancient pyramid&r, a cursed site shunned by travelers, coveted by daring adventurers. Legends say the tomb contains a &atreasure&r worthy of &ethe greatest kings&r. Few dare to enter, &oand even fewer return...&r"
+				""
+				"{image:ftbquests:textures/custom/diff_3.png width:128 height:16 align:center}"
+			]
+			id: "4834DD4307CFE487"
+			rewards: [{
+				id: "06E8D09CE0A57F5B"
+				type: "xp"
+				xp: 7500
+			}]
+			shape: "diamond"
+			subtitle: "Find the desert eye"
+			tasks: [{
+				advancement: "endrem:main/old_eye"
+				criterion: ""
+				icon: {
+					Count: 1
+					id: "endrem:old_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "052833E4148FCF20"
+				title: "Desert Eye"
+				type: "advancement"
+			}]
+			title: "Desert eye"
+			x: -0.04404761904758914d
+			y: 0.75d
+		}
+		{
+			description: [
+				"Hiding deep in the &ajungle&r lies a &cmysterious monument&r of an &6ancient civilization&r. This forgotten shrine is the &aovergrown temple&r of the &dGod of Genesis : Kukulkan&r. He is the protector of the &ajungle eye&r."
+				""
+				"{image:ftbquests:textures/custom/diff_2.png width:128 height:16 align:center}"
+			]
+			icon: {
+				Count: 1
+				id: "endrem:rogue_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5793A43D05DC8A38"
+			rewards: [{
+				id: "18B9E0DA5593AA1C"
+				type: "xp"
+				xp: 5000
+			}]
+			shape: "diamond"
+			subtitle: "Find the jungle eye"
+			tasks: [{
+				advancement: "endrem:main/rogue_eye"
+				criterion: ""
+				icon: {
+					Count: 1
+					id: "endrem:rogue_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "229336491DC8525D"
+				title: "Jungle Eye"
+				type: "advancement"
+			}]
+			title: "Jungle Eye"
+			x: 6.991666666666696d
+			y: 0.7857142857142847d
+		}
+		{
+			description: [
+				"The &eNether Eye&r is protected by &cIgnis,&r the lord of the Nether. This foe awaits whoever dares to defy him in the &6Burning Arena&r, far in its realm. No one has ever been this far, and saying that obtaining this Eye will be a difficult task is an understatement..."
+				""
+				"{image:ftbquests:textures/custom/diff_3.png width:128 height:16 align:center}"
+			]
+			id: "500142EA05C7D13D"
+			rewards: [{
+				id: "0D88EAB176FC359A"
+				type: "xp"
+				xp: 9500
+			}]
+			shape: "diamond"
+			subtitle: "Find the Nether Eye"
+			tasks: [{
+				advancement: "endrem:main/nether_eye"
+				criterion: ""
+				id: "49D20BB722280BCB"
+				title: "Nether Eye"
+				type: "advancement"
+			}]
+			x: 1.705952380952418d
+			y: -4.714285714285715d
+		}
+		{
+			description: [
+				"The &bice Labyrinth&r has many mysteries and untold legends, one of which speaks of the ghost of a once-renowned pirate named the &acaptain Cornellia.&r This spirit might hold the &n&l&ekey&r&r&r to the &bGlacial Eye&r of the labyrinth, if you find a way to call it..."
+				""
+				"{image:ftbquests:textures/custom/diff_2.png width:128 height:16 align:center}"
+			]
+			id: "6944C77B92BBCE26"
+			rewards: [{
+				id: "0D26CD27951ADC52"
+				type: "xp"
+				xp: 5500
+			}]
+			shape: "diamond"
+			subtitle: "Find the Glacial Eye"
+			tasks: [{
+				advancement: "endrem:main/cold_eye"
+				criterion: ""
+				id: "457AF71B35ACE171"
+				title: "Glacial Eye"
+				type: "advancement"
+			}]
+			title: "Glacial Eye"
+			x: 5.24166666666671d
+			y: 2.607142857142854d
+		}
+		{
+			description: [
+				"&4Abaddon&r is the haven of the machines, an underground realm that harbors an army of tenacious machines who protect the &4Mechanical Eye&r. if you dare enter the factory, be prepared to fight the &4Harbinger&r and its army."
+				""
+				"{image:ftbquests:textures/custom/diff_3.png width:128 height:16 align:center}"
+			]
+			id: "759868A865292860"
+			rewards: [{
+				id: "442FF0AB7CDF012E"
+				type: "xp"
+				xp: 6500
+			}]
+			shape: "diamond"
+			subtitle: "Find the Mechanical Eye"
+			tasks: [{
+				advancement: "endrem:main/corrupted_eye"
+				criterion: ""
+				icon: {
+					Count: 1
+					id: "endrem:corrupted_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "484767B5AAC31969"
+				title: "Mechanical Eye"
+				type: "advancement"
+			}]
+			title: "Mechanical Eye"
+			x: 1.705952380952418d
+			y: 2.607142857142854d
+		}
+		{
+			description: [
+				"There is a saying amongst people in the villages that a &dmagician&r with very specific powers and a taste for lost travellers is haunting the &adark forest&r. Its domain is the &ctheatre&r of horrible events. This might be the place where the Eye is hidden..."
+				""
+				"{image:ftbquests:textures/custom/diff_1.png width:128 height:16 align:center}"
+			]
+			id: "46B2A029D07AF0C8"
+			rewards: [{
+				id: "33AE2B7BA344588F"
+				type: "xp"
+				xp: 3500
+			}]
+			shape: "diamond"
+			subtitle: "Find the Magical Eye"
+			tasks: [{
+				advancement: "endrem:main/magical_eye"
+				criterion: ""
+				id: "1766E3A02654874C"
+				title: "Magical Eye"
+				type: "advancement"
+			}]
+			x: 6.991666666666696d
+			y: -2.9285714285714306d
+		}
+		{
+			description: [
+				"At the edge of the moor, beyond the valleys, lies a passage between the trees of the marshes from which stands the massive city of &cNoxbetha&r. The gigantic monument is the shrine that watch over the &aToxic Eye&r. The poisonous swamp steam keeps it away from any intruders who might try to approach it."
+				""
+				"{image:ftbquests:textures/custom/diff_1.png width:128 height:16 align:center}"
+			]
+			icon: {
+				Count: 1
+				id: "endrem:black_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "58C25B0D6B26EA2D"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "023A4FA97E2A0601"
+				type: "xp"
+				xp: 2000
+			}]
+			shape: "diamond"
+			subtitle: "Find the Toxic Eye"
+			tasks: [{
+				advancement: "endrem:main/black_eye"
+				criterion: ""
+				icon: {
+					Count: 1
+					id: "endrem:black_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "0234E9D51DFE1261"
+				title: "Toxic Eye"
+				type: "advancement"
+			}]
+			title: "Toxic Eye"
+			x: 3.4916666666666956d
+			y: -4.75d
+		}
+		{
+			description: [
+				"The &cLost Eye&r hasn't been seen since centuries, and Legends tell many different stories. Some say the Eye has been lost in the &6forge of the Nether&r. To find the Eye, one must first find the &dObsidian portal&r..."
+				""
+				"{image:ftbquests:textures/custom/diff_3.png width:128 height:16 align:center}"
+			]
+			id: "4320C056DDE4DF1A"
+			rewards: [{
+				id: "152BF7121EA8F6F2"
+				type: "xp"
+				xp: 9000
+			}]
+			shape: "diamond"
+			subtitle: "Find the Lost Eye"
+			tasks: [{
+				advancement: "endrem:main/lost_eye"
+				criterion: ""
+				id: "5696C5C804F99E76"
+				title: "Lost Eye"
+				type: "advancement"
+			}]
+			x: -0.04404761904758914d
+			y: -4.75d
+		}
+		{
+			description: [
+				"The &eSteam Eye&r is guarded by the Automatons of the &dflying city of Magnus&r. The almighty mechanical obelisk is known to be a &8death trap&r for adventurers. Look up to the skies and you might find it : A mirage made of copper and steam. "
+				""
+				"{image:ftbquests:textures/custom/diff_2.png width:128 height:16 align:center}"
+			]
+			id: "5F39ACB4D458AB6C"
+			rewards: [{
+				id: "49485EDC3686D198"
+				type: "xp"
+				xp: 4500
+			}]
+			shape: "diamond"
+			subtitle: "Find the Steam Eye"
+			tasks: [{
+				advancement: "endrem:main/wither_eye"
+				criterion: ""
+				icon: {
+					Count: 1
+					id: "endrem:wither_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "15CCBC9E063F1CE2"
+				title: "Steam Eye"
+				type: "advancement"
+			}]
+			title: "Steam Eye"
+			x: 6.991666666666696d
+			y: 2.5714285714285694d
+		}
+		{
+			description: [
+				"Many travelers have met their &8fate&r attempting to reach the &bOcean Monument&r, known as the  home of the &6Elder&r. This &emonstruous beast&r is the keeper of the &aGuardian Eye&r. To find this place, you must brave the &9sea&r and sail toward the horizon until the &bmonument&r reveals itself..."
+				""
+				"{image:ftbquests:textures/custom/diff_1.png width:128 height:16 align:center}"
+			]
+			id: "57700B34BDB38AA4"
+			rewards: [{
+				id: "4DD4BB89A93B0474"
+				type: "xp"
+				xp: 3000
+			}]
+			shape: "diamond"
+			subtitle: "Find the Guardian Eye"
+			tasks: [{
+				advancement: "endrem:main/guardian_eye"
+				criterion: ""
+				id: "5BDB212E5CDBF684"
+				title: "Guardian Eye"
+				type: "advancement"
+			}]
+			x: 6.991666666666696d
+			y: -4.714285714285715d
+		}
+		{
+			description: [
+				"An excavation site has discovered &9ruins&r from an unknown era in the depths of the world. At night, the ground trembles and eerie noises come from the pit. Some workers whisper the place might contain the &dAbyssal Eye&r, others say there is only death beneath the soil..."
+				""
+				"{image:ftbquests:textures/custom/diff_1.png width:128 height:16 align:center}"
+			]
+			icon: {
+				Count: 1
+				id: "endrem:evil_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1B2DFBB4DA160B18"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "536B81ACFA0570DC"
+				type: "xp"
+				xp: 2500
+			}]
+			shape: "diamond"
+			subtitle: "Find the Abyssal Eye"
+			tasks: [{
+				advancement: "endrem:main/evil_eye"
+				criterion: ""
+				id: "39F877FF81D29394"
+				title: "Abyssal Eye"
+				type: "advancement"
+			}]
+			title: "Abyssal Eye"
+			x: 5.24166666666671d
+			y: -4.714285714285715d
+		}
+		{
+			description: [
+				"The &aCryptic Eye&r is the possession of the &cCorrupted Champion&r, a creature whose whereabouts remain unknown. Its last sighting was near a &edead tree&r deep within the forest."
+				""
+				"{image:ftbquests:textures/custom/diff_1.png width:128 height:16 align:center}"
+			]
+			id: "427C62222D4FEC8D"
+			rewards: [{
+				id: "42B79597C856E01D"
+				type: "xp"
+				xp: 4000
+			}]
+			shape: "diamond"
+			subtitle: "Find the Cryptic Eye"
+			tasks: [{
+				advancement: "endrem:main/cryptic_eye"
+				criterion: ""
+				icon: {
+					Count: 1
+					id: "endrem:cryptic_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "1B97CCF8EB556E11"
+				title: "Cryptic Eye"
+				type: "advancement"
+			}]
+			x: 6.991666666666696d
+			y: -1.0714285714285765d
+		}
+		{
+			description: [
+				"The &bNecropolis&r, this is where you'll find the &eUndead Eye&r. But you'll probably find way more than that, for this place is guard by the &9army of Dreads&r, and intruders are not part of their guests..."
+				""
+				"{image:ftbquests:textures/custom/diff_3.png width:128 height:16 align:center}"
+			]
+			id: "191FD6EE49D1C3CE"
+			rewards: [{
+				id: "72D6B408208D03F3"
+				type: "xp"
+				xp: 7000
+			}]
+			shape: "diamond"
+			subtitle: "Find the Undead Eye"
+			tasks: [{
+				advancement: "endrem:main/undead_eye"
+				criterion: ""
+				icon: {
+					Count: 1
+					id: "endrem:undead_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "1EA7C61DD2FC0FB0"
+				title: "Undead Eye"
+				type: "advancement"
+			}]
+			x: -0.04404761904758914d
+			y: 2.607142857142854d
+		}
+		{
+			description: [
+				"The &bocean's&r greatest treasure is hidden in the depths of &cthe Sunken City&r. The &dExotic Eye&r, guarded by the dwellers of the deep, rests and awaits the fearless. An ancient beast, as old as the sea, protects its precious artifact."
+				""
+				"{image:ftbquests:textures/custom/diff_3.png width:128 height:16 align:center}"
+			]
+			id: "65B9EFBB65DC99C5"
+			rewards: [{
+				id: "2EA410FBAA4EEF7B"
+				type: "xp"
+				xp: 8000
+			}]
+			shape: "diamond"
+			subtitle: "Find the Exotic Eye"
+			tasks: [{
+				advancement: "endrem:main/exotic_eye"
+				criterion: ""
+				icon: {
+					Count: 1
+					id: "endrem:exotic_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "42A31FCF8F2ACBDE"
+				title: "Exotic Eye"
+				type: "advancement"
+			}]
+			x: -0.04404761904758914d
+			y: -1.0714285714285765d
+		}
+		{
+			description: [
+				"The &cunderground&r harbors a multitude of insects, demons, and restless spirits within its &adepths.&r But none are more fearsome than the &eDead King&r of &bthe Catacombs&r, guardian of the &dWitchcraft Eye&r. Beware, for this enemy shows no mercy to the faint of heart..."
+				""
+				"{image:ftbquests:textures/custom/diff_3.png width:128 height:16 align:center}"
+			]
+			id: "4009384A4FC5BD85"
+			rewards: [{
+				id: "24BED6AF24102979"
+				type: "xp"
+				xp: 6000
+			}]
+			shape: "diamond"
+			subtitle: "Find the Witchcraft Eye"
+			tasks: [{
+				advancement: "endrem:main/witch_eye"
+				criterion: ""
+				icon: {
+					Count: 1
+					id: "endrem:witch_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "55DE5F5CE89CA34D"
+				title: "Witchcraft Eye"
+				type: "advancement"
+			}]
+			title: "Witchcraft Eye"
+			x: 3.4916666666666956d
+			y: 2.5714285714285694d
+		}
+		{
+			description: [
+				"Beyond the unforgiving &asnowy plains&r stands the &9Frosted Prison&r, a massive dungeon where the ruthless &bMaledictus&r lies. As the keeper of the &dCursed Eye&r, he has claimed dominion over the icy realm, and his reign plunged the land into chaos..."
+				""
+				"{image:ftbquests:textures/custom/diff_3.png width:128 height:16 align:center}"
+			]
+			id: "7F8620A8ABC54844"
+			rewards: [{
+				id: "691A23DF36C82D1C"
+				type: "xp"
+				xp: 8500
+			}]
+			shape: "diamond"
+			subtitle: "Find the Cursed Eye"
+			tasks: [{
+				advancement: "endrem:main/cursed_eye"
+				criterion: ""
+				icon: {
+					Count: 1
+					id: "endrem:cursed_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "39A12122A75069DA"
+				title: "Cursed Eye"
+				type: "advancement"
+			}]
+			x: -0.04404761904758914d
+			y: -2.892857142857146d
+		}
+	]
+	title: "Legendary Quest"
+}

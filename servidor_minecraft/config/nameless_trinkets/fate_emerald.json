@@ -1,0 +1,10 @@
+{
+  "config": {
+    "discountBoost": 50,
+    "secondsToUnequip": 0.5,
+    "hungerPerSecond": 0.1,
+    "isEnable": true,
+    "secondsToUnequipPRIVATE": 0.0,
+    "setSeconds": true
+  }
+}

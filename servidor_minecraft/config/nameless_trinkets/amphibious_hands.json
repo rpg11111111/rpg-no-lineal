@@ -1,0 +1,6 @@
+{
+  "config": {
+    "miningUnderwaterSpeedMultiplier": 2.5,
+    "isEnable": true
+  }
+}

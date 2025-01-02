@@ -1,0 +1,28 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "temperature"
+	group: "49DA790BB69BB4EE"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			Parent: {
+				temperature: 24.1f
+			}
+		}
+		id: "legendarysurvivaloverhaul:thermometer"
+	}
+	id: "79520D17D4188486"
+	images: [{
+		height: 32.0d
+		image: "ftbquests:textures/custom/temperature_tutorial.png"
+		rotation: 0.0d
+		width: 32.0d
+		x: 6.5d
+		y: 1.5d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Temperature"
+}

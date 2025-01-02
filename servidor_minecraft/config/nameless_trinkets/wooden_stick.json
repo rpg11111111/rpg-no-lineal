@@ -1,0 +1,6 @@
+{
+  "config": {
+    "cooldown": 1200,
+    "isEnable": true
+  }
+}

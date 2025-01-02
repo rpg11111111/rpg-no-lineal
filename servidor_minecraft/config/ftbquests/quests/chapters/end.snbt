@@ -1,0 +1,20 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "end"
+	group: "5F70218941C1FBB1"
+	icon: "betterend:end_moss_path"
+	id: "5D85693E26E09A6C"
+	images: [{
+		height: 8.0d
+		image: "ftbquests:textures/custom/wip.png"
+		rotation: 0.0d
+		width: 8.0d
+		x: 0.0d
+		y: 0.0d
+	}]
+	order_index: 3
+	quest_links: [ ]
+	quests: [ ]
+	title: "End Quests"
+}

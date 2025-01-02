@@ -1,0 +1,7 @@
+{
+  "config": {
+    "repairSpeedSeconds": 20,
+    "repairCuantity": 1,
+    "isEnable": true
+  }
+}

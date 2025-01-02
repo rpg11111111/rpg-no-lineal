@@ -1,0 +1,20 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "quests"
+	group: "49DA790BB69BB4EE"
+	icon: "minecraft:writable_book"
+	id: "605294BBF253AF5A"
+	images: [{
+		height: 8.0d
+		image: "ftbquests:textures/custom/wip.png"
+		rotation: 0.0d
+		width: 8.0d
+		x: 0.0d
+		y: 0.0d
+	}]
+	order_index: 8
+	quest_links: [ ]
+	quests: [ ]
+	title: "Quests"
+}

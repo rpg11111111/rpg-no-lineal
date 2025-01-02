@@ -1,0 +1,240 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "get_stated"
+	group: "24EA56649EA2376E"
+	icon: "artifacts:golden_hook"
+	id: "64199B6DEC4E993E"
+	images: [
+		{
+			height: 8.0d
+			image: "ftbquests:textures/custom/hydration.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: -11.5d
+			y: -1.0d
+		}
+		{
+			click: "#60EC86A4F154048E"
+			height: 1.0d
+			hover: ["Go to Hydration Introduction Page"]
+			image: "legendarysurvivaloverhaul:item/purified_water_bottle"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.52380952380949d
+			y: 0.12585034013607554d
+		}
+		{
+			height: 8.0d
+			image: "ftbquests:textures/custom/temperature.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			click: "#79520D17D4188486"
+			height: 1.0d
+			hover: ["Go to Temperature Introduction Page"]
+			image: "legendarysurvivaloverhaul:item/thermometer/thermometer_14"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: 0.0714285714285765d
+		}
+		{
+			height: 8.0d
+			image: "ftbquests:textures/custom/health.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			click: "#4F36F6F417EF2402"
+			height: 1.0d
+			hover: ["Go to Health Introduction Page"]
+			image: "legendarysurvivaloverhaul:item/heart_container"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.538095238095231d
+			y: 0.12312925170069633d
+		}
+		{
+			height: 8.0d
+			image: "ftbquests:textures/custom/baubles.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: -11.5d
+			y: 6.0d
+		}
+		{
+			click: "#3685533974420AA0"
+			height: 1.0d
+			hover: ["Go to Baubles Introduction Page"]
+			image: "artifacts:item/superstitious_hat"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.5d
+			y: 7.187074829931966d
+		}
+		{
+			height: 8.0d
+			image: "ftbquests:textures/custom/skills.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: -4.5d
+			y: 6.0d
+		}
+		{
+			click: "#4E6F6509190C7D32"
+			height: 1.0d
+			hover: ["Go to Skills Introduction Page"]
+			image: "betternether:item/cincinnasite_sword_diamond"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.496598639455762d
+			y: 7.132653061224502d
+		}
+		{
+			height: 8.0d
+			image: "ftbquests:textures/custom/movements.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			click: "#0C3B22961C937993"
+			height: 1.0d
+			hover: ["Go To Movements Introduction Page"]
+			image: "artifacts:item/running_shoes"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.523809523809547d
+			y: 7.173469387755119d
+		}
+		{
+			height: 8.0d
+			image: "ftbquests:textures/custom/loot.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: -11.5d
+			y: 13.0d
+		}
+		{
+			height: 8.0d
+			image: "ftbquests:textures/custom/quests.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: 2.5d
+			y: 13.0d
+		}
+		{
+			height: 8.0d
+			image: "ftbquests:textures/custom/equipment.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: -4.5d
+			y: 13.0d
+		}
+		{
+			click: "#47790ABC7466E035"
+			height: 1.0d
+			hover: ["Go to Loot Introduction Page"]
+			image: "aquamirae:item/treasure_pouch"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.523809523809497d
+			y: 14.197278911564645d
+		}
+		{
+			click: "#6696F286BB5A6303"
+			height: 1.0d
+			hover: ["Go to Quality Equipment Introduction Page"]
+			image: "irons_spellbooks:item/priest_chestplate"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.4999999999999645d
+			y: 14.125850340136061d
+		}
+		{
+			click: "#605294BBF253AF5A"
+			height: 1.0d
+			hover: ["Go to Quests Introduction Page"]
+			image: "minecraft:item/writable_book"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5000000000000284d
+			y: 14.125850340136068d
+		}
+		{
+			height: 1.0d
+			image: "forge:textures/gui/experimental_warning.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.0d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			image: "forge:textures/gui/experimental_warning.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			image: "forge:textures/gui/experimental_warning.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			image: "forge:textures/gui/experimental_warning.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 13.5d
+		}
+		{
+			height: 1.0d
+			image: "forge:textures/gui/experimental_warning.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: 13.5d
+		}
+		{
+			height: 1.0d
+			image: "forge:textures/gui/experimental_warning.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.0d
+			y: 13.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "394772B78D9EE690"
+		rewards: [{
+			id: "17A90A947EA73E29"
+			type: "xp"
+			xp: 1
+		}]
+		shape: "diamond"
+		tasks: [{
+			id: "17F511F01FB15857"
+			title: "I am the invisible checkmark"
+			type: "checkmark"
+		}]
+		title: "You found me."
+		x: 5.271428571428572d
+		y: -3.7857142857142883d
+	}]
+	title: "Tutorials (Wiki)"
+}
