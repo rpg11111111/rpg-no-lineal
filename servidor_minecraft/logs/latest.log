@@ -7862,3 +7862,5 @@ ModdedBiomeSource (404bf807)
 [02Jan2025 19:22:25.813] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player cdc8b0ca-1448-37e2-bf7a-bb7aa2983978
 [02Jan2025 19:22:27.234] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player cdc8b0ca-1448-37e2-bf7a-bb7aa2983978
 [02Jan2025 19:22:27.236] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player SEINARU (cdc8b0ca-1448-37e2-bf7a-bb7aa2983978) successfully connected to voice chat
+[02Jan2025 19:31:11.772] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Angelo'/16, l='ServerLevel[Legendary Edition]', x=21.59, y=70.00, z=-11.10] died, message: 'Angelo hit the ground too hard'
+[02Jan2025 19:31:11.773] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Villager['Angelo'/16, l='ServerLevel[Legendary Edition]', x=21.59, y=70.00, z=-11.10] died: Angelo fell from a high place
