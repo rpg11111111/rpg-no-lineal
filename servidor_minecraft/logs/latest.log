@@ -7829,3 +7829,36 @@ ModdedBiomeSource (404bf807)
 [02Jan2025 19:04:48.407] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
 [02Jan2025 19:04:48.407] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice chat server started at port 3624
 [02Jan2025 19:04:48.417] [Server thread/WARN] [ModernFix/]: Dedicated server took 62.791 seconds to load
+[02Jan2025 19:22:05.822] [Worker-Main-42/WARN] [net.minecraft.world.level.levelgen.heightproviders.UniformHeight/]: Empty height range: [-55 absolute--60 absolute]
+[02Jan2025 19:22:05.823] [Worker-Main-42/WARN] [net.minecraft.world.level.levelgen.heightproviders.UniformHeight/]: Empty height range: [-55 absolute--60 absolute]
+[02Jan2025 19:22:05.823] [Worker-Main-42/WARN] [net.minecraft.world.level.levelgen.heightproviders.UniformHeight/]: Empty height range: [-55 absolute--60 absolute]
+[02Jan2025 19:22:07.063] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: SEINARU[/127.109.98.65:40785] logged in with entity id 141 at (242.69999998807907, 69.0, -211.51879031862723)
+[02Jan2025 19:22:07.178] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
+[02Jan2025 19:22:07.327] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SEINARU joined the game
+[02Jan2025 19:22:07.532] [Server thread/INFO] [fallingtrees | Config/]: Sending common config 'fallingtrees:fallingtrees_common' to SEINARU
+[02Jan2025 19:22:07.603] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set the time to 1000
+[02Jan2025 19:22:07.645] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4628ms or 92 ticks behind
+[02Jan2025 19:22:08.730] [Netty Epoll Server IO #3/INFO] [fallingtrees | Config/]: Received client config 'fallingtrees:fallingtrees_client' from SEINARU
+[02Jan2025 19:22:08.743] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of SEINARU (18)
+[02Jan2025 19:22:08.746] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to SEINARU
+[02Jan2025 19:22:08.997] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Received Hello from Client. (server=3.0.14, client=3.0.14)
+[02Jan2025 19:22:08.999] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Sending Hello to Client. (server=3.0.14)
+[02Jan2025 19:22:09.002] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Listing Mod betternether v9.0.10 (size: 21.9 MiB, download=true)
+[02Jan2025 19:22:09.003] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Listing Mod bclib v3.0.14 (size: 2.2 MiB, download=true)
+[02Jan2025 19:22:09.005] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betternether.main
+[02Jan2025 19:22:09.006] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betternether.generator
+[02Jan2025 19:22:09.007] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betternether.blocks
+[02Jan2025 19:22:09.007] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betternether.items
+[02Jan2025 19:22:09.008] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betternether.biomes
+[02Jan2025 19:22:09.009] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betternether.mobs
+[02Jan2025 19:22:09.010] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betterend.entities
+[02Jan2025 19:22:09.010] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betterend.blocks
+[02Jan2025 19:22:09.010] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betterend.items
+[02Jan2025 19:22:09.011] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betterend.enchantments
+[02Jan2025 19:22:09.011] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_bclib.generator
+[02Jan2025 19:22:09.011] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_bclib.main
+[02Jan2025 19:22:09.011] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_bclib.biomes
+[02Jan2025 19:22:09.012] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Folder /workspaces/rpg-no-lineal/servidor_minecraft/bclib-sync (allowDelete=true)
+[02Jan2025 19:22:25.813] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player cdc8b0ca-1448-37e2-bf7a-bb7aa2983978
+[02Jan2025 19:22:27.234] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player cdc8b0ca-1448-37e2-bf7a-bb7aa2983978
+[02Jan2025 19:22:27.236] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player SEINARU (cdc8b0ca-1448-37e2-bf7a-bb7aa2983978) successfully connected to voice chat
